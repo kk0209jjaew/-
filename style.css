@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+ul#filmList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul#filmList li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f0f0f0;
+  border-radius: 5px;
+  cursor: move;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#resultTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#resultTable td, #resultTable th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #777;
+}

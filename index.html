@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>김재원 필모그래피 순위 투표</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>당신의 김재원 필모 순위를 알아보세요...</h1>
+    <ul id="filmList">
+      <li>우리들의 블루스</li>
+      <li>네가 빠진 세계</li>
+      <li>열아홉 해달들</li>
+      <li>스틸러</li>
+      <li>킹더랜드</li>
+      <li>하이라키</li>
+      <li>옥씨부인전</li>
+      <li>중증외상센터</li>
+    </ul>
+    <button onclick="showResult()">결과 보기</button>
+
+    <div id="resultContainer" style="display:none;">
+      <h2>내가 뽑은 필모 순위</h2>
+      <table id="resultTable"></table>
+    </div>
+
+    <footer>@haru_jjaew29</footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
